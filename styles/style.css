@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Open Sans;
+}
+
+header {
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-color: #fff8f3;
+    background-position: right bottom, left;
+
+}
+
+nav {
+    display: flex;
+    margin: 0px 200px;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.nav-titel {
+    font-weight: 800;
+    font-size: 45px;
+    font-family: Open Sans;
+}
+
+.text-primary-color {
+    color: #fd6a0f;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 50px;
+
+
+}
+
+.btn-primary {
+    background-color: #fd6a0f;
+    color: white;
+    border-radius: 5px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    border: none;
+}
+
+.bannar {
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-title {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 700;
+}
+
+.sub-head {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+
+}
+
+.sub-para {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+}
+
+.banar-photo {
+    width: 584px;
+    height: 676px;
+}
+
+.download {
+    background-color: #fd6a0f;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px 30px;
+    font-weight: 800;
+}
+
+.contact {
+    margin-left: 20px;
+    background-color: #fff8f3;
+    color: #fd6a0f;
+    border: 1px solid #fd6a0f;
+    padding: 10px 30px;
+    font-weight: 800;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.about {
+    background-color: #fff8f3;
+    margin-top: 130px;
+    padding: 150px 130px;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+
+    text-align: center;
+
+
+    color: #181818;
+}
+
+.about-discription {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 30px 0px;
+    color: #757575;
+
+}
+
+.information {
+    text-align: center;
+    margin: 0px auto;
+}
+
+th {
+    padding: 0px 40px;
+    font-weight: 400;
+    color: #474747;
+}
+
+.data {
+    font-weight: 700;
+    color: #474747;
+    margin-top: 5px;
+}
+
+.work {
+    margin: 130px 0px;
+}
+
+.work-header {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #181818;
+}
+
+.work-discription {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #757575;
+    padding: 0px 100px;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-box {
+    width: 267px;
+    height: 377px;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: 5px 5px 30px #e4e4e4;
+
+}
+
+.sub-box-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 30px;
+    color: #181818;
+
+}
+
+.box-discription {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    margin-top: 30px;
+}
