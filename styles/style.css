@@ -204,3 +204,93 @@ th {
     line-height: 28px;
     margin-top: 30px;
 }
+.resume-conteinar{
+    display: flex;
+    justify-content: space-between;
+}
+.headline{
+    margin-bottom: 100px;
+}
+.education-boxes,.experience-boxes{
+    border-bottom: 1px solid #757575 ;
+    width:95%;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.education-header{
+    color: #474747;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.education-level{
+    font-size: 20px;
+    color:#474747;
+    margin-bottom: 10px;
+
+}
+.institiut{
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.education-sumary{
+    color: #757575;
+    line-height: 30px;
+    font-size: 16px;
+}
+.btn{
+margin-left: 46%;
+margin-top: 100px;
+margin-bottom: 100px;
+    
+}
+footer{
+    background-color: rgb(255, 223, 239);
+    height: 80vh;
+
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: auto;
+    padding-top: 100px;
+}
+.socail-area{
+    width: 40%;
+    
+
+}
+.social-links,.message{
+font-size: 25px;
+font-weight: 800;
+margin-bottom: 40px;
+color: #181818;
+}
+.social-dis{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+.from{
+    margin-bottom: 30px;
+    padding: 15px 60px 15px 10px;
+    border: none;
+    width: 200px;
+}
+.submit{
+    background: #fd6a0f;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+
+
